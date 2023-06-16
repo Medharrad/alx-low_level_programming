@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
- * main - prints the alphabets in lowercase 
- * Return : 0 if nothing is wrong
- * putchar : print a single char 
+/**
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -15,5 +15,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-
 }
